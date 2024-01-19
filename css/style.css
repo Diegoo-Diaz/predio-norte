@@ -295,33 +295,29 @@ img{
 
 
 
-/*tablet*/
-@media screen and (max-width: 1024px) and (min-widht: 768px) {
-    header{
+/* Tablet */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    header {
         display: flex;
         flex-direction: column;
-
     }
-    header nav ul{
+    header nav ul {
         flex-direction: column;
     }
-    body{
+    body {
         background-color: rgb(184, 48, 48);
     }
-    }
+}
 
-
-/*mediaquery para mobile*/
-
-@media screen and (max-widht: 768px){
-    body{
+/* Media query para móviles */
+@media screen and (max-width: 768px) {
+    body {
         background-color: rgb(37, 37, 37);
         display: flex;
         flex-direction: column;
     }
-    header nav ul{
+    header nav ul {
         flex-direction: row-reverse;
         background-color: black;
-
     }
-    }
+}
