@@ -106,14 +106,16 @@
 }
 
 .enlaces {
+    width: 17%;
+    height: 17%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-decoration: none;
     list-style: none;
     padding: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    align-items: center;
     bottom: none;
     column-gap: 45px;
 
