@@ -118,12 +118,27 @@
     font-size: 25px;
     bottom: none;
     column-gap: 45px;
+}
 
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    position: 20px 0;
+}
+.carousel-item{
+    width: 15%;
 
-
-
+height: 15%;
+background-color: black;
 
 }
+
+
+
+
 
 .derechos {
     font-family: cursive;
