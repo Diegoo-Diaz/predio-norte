@@ -216,6 +216,8 @@
     width: 100%;
     height: 450px;
 
+padding: 80px;
+border-radius: 40px 0;
 }
 
 .maps img {
@@ -388,7 +390,35 @@ img{
     body {
         background-color: rgb(184, 48, 48);
     }
+
+    .contacto-texto{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .vídeo
+    .formulario {
+    Pantalla: Flex;
+    justify-content: centro;
+    align-items: centro;
+    }
+
+    .enlaces {
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        background-color: none;
+    
+    
+    }
+
 }
+
+
+
 
 /* Media query para móviles */
 @media screen and (max-width: 768px) {
@@ -399,7 +429,34 @@ img{
     }
     header nav ul {
         flex-direction: row-reverse;
-        background-color: black;
+        background-color: rgba(80, 100, 212, 0.368);
         width: 100%;
     }
+
+    .contacto-texto{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    
+    .vídeo
+    .formulario {
+    Pantalla: Flex;
+    justify-content: centro;
+    align-items: centro;
+    }
+
+    .enlaces {
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        background-color: none;
+    
+    
+    }
 }
+
+
+
